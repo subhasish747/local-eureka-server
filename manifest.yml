@@ -1,0 +1,10 @@
+---
+applications:
+- name: 249071-eureka-server1
+  disk_quota: 1024M
+  instances: 1 
+  memory: 1024M
+  stack: cflinuxfs3
+  path: target/shopping-eureka-server-1.0.0.jar 
+  routes:
+  - route: 249071-eureka-server1.cfapps.io
